@@ -1,0 +1,46 @@
+<electronics>
+  <product>
+    <id>e1</id>
+    <Product_name>vivo Y11s 4G Smartphone, 32GB, 6.51" HD Display (Phantom Black)</Product_name>
+    <Price>197</Price>
+    <Wireless_carrier>Unlocked for All Carriers</Wireless_carrier>
+    <Brand>VIVO</Brand>
+    <Colour>Black</Colour>
+    <Memory_storage_capacity>3 GB</Memory_storage_capacity>
+    <Screen_size>6.51 Inches</Screen_size>
+    <Operating_system/>
+  </product>
+  <product>
+    <id>e2</id>
+    <Product_name>Samsung Galaxy A21S 128GB Black</Product_name>
+    <Price>294.26</Price>
+    <Wireless_carrier>Unlocked for All Carriers</Wireless_carrier>
+    <Brand>Samsung</Brand>
+    <Colour>White</Colour>
+    <Memory_storage_capacity>128 GB</Memory_storage_capacity>
+    <Screen_size/>
+    <Operating_system>Android 10.0, Android</Operating_system>
+  </product>
+  <product>
+    <id>e3</id>
+    <Product_name>Nokia 2720 Flip 4G (Official Australian Version) 2019 Unlocked Basic Mobile Phone with Social Apps, Emergency Button, 28 Days Battery Standby and Google Assistant, Ocean Black, 2.8 inches</Product_name>
+    <Price>114</Price>
+    <Wireless_carrier>Unlocked for All Carriers</Wireless_carrier>
+    <Brand>Nokia</Brand>
+    <Colour>Ocean Black</Colour>
+    <Memory_storage_capacity>4 GB</Memory_storage_capacity>
+    <Screen_size>2.8 inches</Screen_size>
+    <Operating_system>KaiOS</Operating_system>
+  </product>
+  <product>
+    <id>e4</id>
+    <Product_name>Apple iPhone 12 Pro Max 256Gb Gold (MGD13J/A)</Product_name>
+    <Price>2019.00</Price>
+    <Wireless_carrier>Unlocked for All Carriers</Wireless_carrier>
+    <Brand>Apple</Brand>
+    <Colour>Gold</Colour>
+    <Memory_storage_capacity>6 GB</Memory_storage_capacity>
+    <Screen_size>6.7 Inches</Screen_size>
+    <Operating_system>IOS</Operating_system>
+  </product>
+</electronics>

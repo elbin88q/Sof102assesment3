@@ -1,0 +1,51 @@
+{
+    "electronics": {
+      "product": [
+        {
+          "id": "e1",
+          "Product_name": "vivo Y11s 4G Smartphone, 32GB, 6.51\" HD Display (Phantom Black)",
+          "Price": "197",
+          "Wireless_carrier": "Unlocked for All Carriers",
+          "Brand": "VIVO",
+          "Colour": "Black",
+          "Memory_storage_capacity": "3 GB",
+          "Screen_size": "6.51 Inches",
+          "Operating_system": ""
+        },
+        {
+          "id": "e2",
+          "Product_name": "Samsung Galaxy A21S 128GB Black",
+          "Price": "294.26",
+          "Wireless_carrier": "Unlocked for All Carriers",
+          "Brand": "Samsung",
+          "Colour": "White",
+          "Memory_storage_capacity": "128 GB",
+          "Screen_size": "",
+          "Operating_system": "Android 10.0, Android"
+        },
+        {
+          "id": "e3",
+          "Product_name": "Nokia 2720 Flip 4G (Official Australian Version) 2019 Unlocked Basic Mobile Phone with Social Apps, Emergency Button, 28 Days Battery Standby and Google Assistant, Ocean Black, 2.8 inches",
+          "Price": "114",
+          "Wireless_carrier": "Unlocked for All Carriers",
+          "Brand": "Nokia",
+          "Colour": "Ocean Black",
+          "Memory_storage_capacity": "4 GB",
+          "Screen_size": "2.8 inches",
+          "Operating_system": "KaiOS"
+        },
+        {
+          "id": "e4",
+          "Product_name": "Apple iPhone 12 Pro Max 256Gb Gold (MGD13J/A)",
+          "Price": "2019.00",
+          "Wireless_carrier": "Unlocked for All Carriers",
+          "Brand": "Apple",
+          "Colour": "Gold",
+          "Memory_storage_capacity": "6 GB",
+          "Screen_size": "6.7 Inches",
+          "Operating_system": "IOS"
+        }
+      ]
+    }
+  }
+  

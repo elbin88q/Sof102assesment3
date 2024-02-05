@@ -1,0 +1,46 @@
+<electronics>
+  <product>
+    <id>e5</id>
+    <Product_name>Dell Inspiron 15 3000 Full HD Touchscreen Laptop Core i7-1065G7 up to 3.90 GHz 20GB RAM 1TB SSD+1TB HDD Numeric Keypad HDMI WiFi RJ-45 Ethernet Win 10 QWERTY US</Product_name>
+    <Price>748.07</Price>
+    <Brand>DELL</Brand>
+    <OS>Windows 10</OS>
+    <CPU>Intel</CPU>
+    <Screen_size>15.6 Inches</Screen_size>
+    <Computer_memory_size>8 GB</Computer_memory_size>
+    <Hard_disk_size/>
+  </product>
+  <product>
+    <id>e6</id>
+    <Product_name>Huawei MateBook D 15 2020 - 15.6 Inch Laptop with FullView 1080P FHD Ultrabook PC (AMD Ryzen 5 3500U, 8GB RAM, 256GB SSD, Windows 10 Home, Multi-Screen Collaboration, Fingerprint Reader), Space Grey</Product_name>
+    <Price>831.93</Price>
+    <Brand>HUAWEI</Brand>
+    <OS>Windows 10 Home</OS>
+    <CPU>AMD</CPU>
+    <Screen_size>15.6 Inches</Screen_size>
+    <Computer_memory_size>8 GB</Computer_memory_size>
+    <Hard_disk_size/>
+  </product>
+  <product>
+    <id>e7</id>
+    <Product_name>Lenovo Ideapad Duet Chromebook, Chrome OS, 4GB RAM, 128GB SSD, 10.1" CT-X636F, Ice Blue + Iron Grey, ZA6F0017AU, AU Version</Product_name>
+    <Price>395</Price>
+    <Brand>Lenovo</Brand>
+    <OS>Chrome OS</OS>
+    <CPU>Others</CPU>
+    <Screen_size>10.1 Inches</Screen_size>
+    <Computer_memory_size>4 GB</Computer_memory_size>
+    <Hard_disk_size/>
+  </product>
+  <product>
+    <id>e8</id>
+    <Product_name>Apple MacBook Pro | 15.4" | 2.9GHz 6-core i9 | 1TB Storage | 32GB Memory | Radeon Pro Vega 20 | Space Grey | 2018 | (Renewed)</Product_name>
+    <Price>4779.00</Price>
+    <Brand>Apple</Brand>
+    <OS>Mac OS X</OS>
+    <CPU>Intel</CPU>
+    <Screen_size/>
+    <Computer_memory_size>32 GB</Computer_memory_size>
+    <Hard_disk_size>1TB</Hard_disk_size>
+  </product>
+</electronics>
