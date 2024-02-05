@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - E-Commerce Prototype</title>
+    <style>
+    /* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set base font and background color for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    header {
+            background-color: #fffdfa;
+            color: #ff883e;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none;
+    padding-left: 0; /* Remove default padding */
+    text-align: center; /* Center the navigation links */
+}
+
+nav li {
+    display: inline-block; /* Align links in a row */
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px; /* Add padding for clickable area */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fdcb6e; /* Soft orange on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #2d3436; /* Dark slate gray */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 1rem;
+    flex: 1;
+}
+
+.footer-section h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-section ul li a {
+    color: #a29bfe; /* Lavender */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-section ul li a:hover {
+    color: #dfe6e9; /* Pale blue on hover */
+}
+
+.footer-social {
+    margin: 1rem;
+    flex: 1;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social ul li a {
+    color: #a29bfe; /* Lavender */
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #fdcb6e; /* Soft orange on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section, .footer-social {
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Ensures the footer is at the bottom of the page */
+main {
+    min-height: calc(100vh - 220px); /* Adjust based on actual header/footer height */
+}
+
+/* Fixes the footer at the bottom */
+footer {
+    position: relative;
+    clear: both;
+    margin-top: 1rem;
+}
+
+/* Improve the visual hierarchy and spacing */
+main {
+    padding: 20px;
+}
+
+/* Additional styling for links to make them stand out */
+a {
+    color: #6c5ce7; /* Matching the header color */
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #fdcb6e; /* Highlight color for interaction */
+}
+
+/* Adjustments for form elements to fit the site's theme */
+input[type="text"], input[type="email"], input[type="search"], button, input[type="submit"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+button, input[type="submit"] {
+    background-color: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #5a4bcf;
+}
+
+/* Make images within content responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Styling for tables to make them more readable */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Utility classes for spacing and alignment */
+.mt-1 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 1rem; }
+.text-center { text-align: center; }
+
+/* Additional styles for the About Us page */
+.about-section {
+    background: #ffffff;
+    padding: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2em;
+    color: #666;
+}
+
+/* Team Section */
+.team {
+    padding: 2rem;
+    background: #f4f4f9;
+}
+
+.team-member {
+    margin: 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 200px; /* Fixed width for team member */
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100%; /* Responsive image size */
+    margin-bottom: 1rem;
+}
+
+.team-member h2 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-member {
+        width: 100%; /* Full width on smaller screens */
+        margin: 1rem 0;
+    }
+
+    .about-content, .team {
+        padding: 1rem;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="nav-list">
+                <li><a href="categories.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="about-content">
+                <h1>About Our E-Commerce Store</h1>
+                <p>Welcome to our e-commerce store. We are dedicated to bringing you the best online shopping experience with a wide range of products and top-notch customer service. Our team is committed to excellence and constantly updating our product offerings to bring you the latest and greatest.</p>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team">
+            <h1>Meet Our Team</h1>
+            <div class="team-member">
+                <img src="https://files.oaiusercontent.com/file-VGWzAeMKDuuzOz7bnB3nYuix?se=2024-02-03T00%3A27%3A46Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Df78eb2e5-a7a7-429a-9e84-205fccece81e.webp&sig=GEeDKLp/0RWuw2C/DCViARqkdZi0SP0TrLeoTB3%2BME4%3D" alt="Milan Shrestha">
+                <h2>Milan Shrestha</h2>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://files.oaiusercontent.com/file-gDBve2s0eD0CKI94KnvATh9f?se=2024-02-03T00%3A29%3A04Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dbd4a63d2-252c-4241-aaa8-033669940ad3.webp&sig=iW2UHlNO3%2BNiGhgLJD02g5O25CKtxxYZnJUB%2BDQ4OiI%3D" alt="Albin Rai">
+                <h2>Albin Rai</h2>
+                <p>Chief Technology Officer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://files.oaiusercontent.com/file-GHG14xo62c13GLAClavdYXM0?se=2024-02-03T00%3A30%3A14Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3De78019c1-dfcc-4bfe-a276-3a75d1a06d27.webp&sig=OtV9eZfBEdErMObu5MhYnb/fhR9SrhF7ArQT51p9E0w%3D" alt="Sesema Limbu">
+                <h2>Sesema Limbu</h2>
+                <p>Head of Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="https://files.oaiusercontent.com/file-nsBuI7kXifIiALwv1CsRUgmu?se=2024-02-03T00%3A36%3A24Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Dd3b0379b-2259-4bb6-86cb-ce253946d6e6.webp&sig=uMAi%2BzAWLlrF4ZLi/7J9nHihyOYEYZorre804EvGIx4%3D" alt="Sneha Adhikari">
+                <h2>Sneha Adhikari</h2>
+                <p>Chief Financial Officer</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Footer sections here -->
+            <div class="footer-section">
+                <h5>Help & Support</h5>
+                <ul>
+                    <li><a href="#">Frequently Asked Questions</a></li>
+                    <li><a href="#">Track my order</a></li>
+                    <li><a href="#">Vendor Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- More footer sections -->
+            <!-- ... -->
+            <div class="footer-social">
+                <h5>Get Social</h5>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
