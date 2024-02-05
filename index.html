@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-Commerce Prototype</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #fffdfa;
+            color: #ff883e;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #ffbd7a;
+            padding: 0.5em 0;
+        }
+
+        nav .container {
+            margin: 0 auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+            border-radius: 5px;
+        }
+
+        #banner {
+            height: 400px;
+            background: url('https://img.freepik.com/premium-vector/super-offer-banner-template-with-editable-text-effect_535749-643.jpg') center/cover no-repeat; 
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #description {
+            text-align: center;
+            padding: 2em;
+            margin-top: 1em;
+        }
+
+        #featured-products {
+            text-align: center;
+            padding: 2em;
+            background-color: #f4f4f4;
+        }
+
+        .product {
+            display: inline-block;
+            vertical-align: top;
+            width: 300px;
+            margin: 15px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 1em;
+            border-radius: 5px;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1em;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .product h3 {
+            color: #ff883e;
+            margin: 0.5em 0;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.4;
+            margin-bottom: 0.5em;
+        }
+
+        footer {
+            background-color: #ffb833;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 1em;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                padding: 10px;
+            }
+
+            .product {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our E-Commerce Store</h1>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="aboutus.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="search.html">Search</a>
+        </div>
+    </nav>
+
+    <div id="banner">
+        <h2></h2>
+    </div>
+
+    <div id="description">
+        <p>Discover a wide range of products across categories. Experience the joy of finding exactly what you need.</p>
+    </div>
+
+    <div id="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <a href="searchbook.html"></a>
+            <img src="https://wordsrated.com/wp-content/uploads/2022/02/Number-of-Books-Published-Per-Year.jpg" alt="Book">
+            <h3>Books</h3>
+            <p>Explore our collection of bestsellers and new releases.</p>
+        </div>
+        <div class="product">
+            <a href="searchperfume.html"></a>
+            <img src="https://wwd.com/wp-content/uploads/2022/02/Top-100-B-Inc.jpg?crop=245px%2C809px%2C1162px%2C650px&resize=1000%2C563" alt="Perfume">
+            <h3>Perfumes</h3>
+            <p>Find your signature scent from our range of designer fragrances.</p>
+        </div>
+        <div class="product">
+            <img src="https://www.merchantcapital.co.za/hubfs/Electronic%20Online%20Header-01.jpg" alt="Electronics">
+            <h3>Electronics</h3>
+            <p>Shop the latest gadgets and tech essentials.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 E-Commerce Prototype</p>
+    </footer>
+</body>
+</html>
